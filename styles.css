@@ -170,4 +170,6 @@ button {
 .footer {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: center;
+    padding: 20px 0;
 }
