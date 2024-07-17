@@ -123,26 +123,48 @@ button {
     font-size: 18px;
 }
 
-.quote {
+.testimonials {
+    padding: 20px 150px 20px 150px;
     background-color: #E5E7EB;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 100px;
 }
 
 .quote-origin {
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
+    margin-top: 10px;
+    text-align: end;
+}
+
+.call-to-action {
+    padding: 50px 150px 50px 150px;
 }
 
 .error {
     background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .error .message {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.error button {
+    border: 1px solid #E5E7EB;
 }
 
 .footer {
